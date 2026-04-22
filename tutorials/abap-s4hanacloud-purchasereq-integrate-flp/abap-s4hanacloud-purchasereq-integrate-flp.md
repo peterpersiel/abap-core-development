@@ -24,7 +24,7 @@ author_profile: https://github.com/mervey45
 - Pages and Space should be activated.
 
 ## You will learn  
-- How to create a semantic object
+- How to create a semantic object 
 - How to create a technical catalog 
 - How to create a launchpad app descriptor item  
 - How to create SAP Fiori business catalog

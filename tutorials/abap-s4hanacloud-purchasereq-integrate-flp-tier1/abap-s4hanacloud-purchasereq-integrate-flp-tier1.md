@@ -28,7 +28,7 @@ author_profile: https://github.com/mervey45
 - How to create a technical catalog 
 - How to create SAP Fiori business catalog
 - How to create a space and page 
-- How to create a business role and assign to business user 
+- How to create a business role and assign to business user  
 - How to run an app from FLP
 
 
