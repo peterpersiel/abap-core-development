@@ -101,5 +101,3 @@ Employee ID `<any>` shall be the one of a sales person that created sales orders
 **Create** the Bonus Plan. You can return from Bonus Plan object page to list report, where you can see one entry in the list of bonus plans now.
 
 ### Test yourself
-
----
