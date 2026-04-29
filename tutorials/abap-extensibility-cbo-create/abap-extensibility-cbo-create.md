@@ -101,5 +101,3 @@ The UI for maintaining fields looks as follows.
 This creates the database persistence of the business object.
 
 ### Test yourself
-
----
