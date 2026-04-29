@@ -65,9 +65,11 @@ In the first parts a manager wants to define business objects "Bonus Plan" for e
 
 2. Create following fields by pressing **New**
 
+<!-- Bonus Plan ID = length 20 in https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/part-iv-associated-business-objects-bonus-entitlement-with-plan-amp-sales/ba-p/13345817 -->
+
 | Field Label                       | Field Identifier               | Field Type                | Key Field | Field Properties                                                                                            |
 | :---------------------------------| :----------------------------- | :------------------------ | :-------- | :---------------------------------------------------------------------------------------------------------- |
-| **`ID`**                          | **`ID`**                       | **`Text`**                | **`X`**   | Length: **`10`** field                                                                                      |
+| **`ID`**                          | **`ID`**                       | **`Text`**                | **`X`**   | Length: **`20`** field                                                                                      |
 | **`Validity Start Date`**         | **`ValidityStartDate`**        | **`Date`**                |           |                                                                                                             |
 | **`Validity End Date`**           | **`ValidityEndDate`**          | **`Date`**                |           |                                                                                                             |
 | **`Target Amount`**               | **`TargetAmount`**             | **`Amount with Currency`**|           |                                                                                                             |
