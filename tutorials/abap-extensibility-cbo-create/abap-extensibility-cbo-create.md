@@ -1,8 +1,8 @@
 ---
 parser: v2
 auto_validation: true
-primary_tag: topic>abap-extensibility
-tags: [  tutorial>beginner, tutorial>license, topic>abap-extensibility, topic>cloud, products>sap-s-4hana ]
+primary_tag: programming-tool>abap-extensibility
+tags: [ tutorial>beginner, tutorial>license, programming-tool>abap-extensibility, topic>cloud, software-product>sap-s-4hana-cloud ]
 time: 10
 author_name: Peter Persiel
 author_profile: https://github.com/peterpersiel
@@ -22,7 +22,7 @@ author_profile: https://github.com/peterpersiel
 
 - **Authorizations:** Your user needs a business role with business catalog **Extensibility – Custom Business Objects** (ID: `SAP_CORE_BC_EXT_CBO`) in your **SAP S/4HANA Cloud** system
 
-#### Our Example
+### Our Example
 
 A several tutorials spanning example will show extensibility along custom Bonus Management applications.
 
@@ -30,7 +30,7 @@ As applications are based on business objects, it all starts with custom busines
 
 In the first parts a manager wants to define business objects "Bonus Plan" for employees. A Bonus Plan is used to save employee specific rules for bonus entitlement.
 
->- Tutorial last checked for feasibility with SAP S/4HANA Cloud Release 2508
+>- Tutorial last checked for feasibility with SAP S/4HANA Cloud Release 2602
 
 ---
 
