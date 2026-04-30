@@ -1,8 +1,8 @@
 ---
 parser: v2
 auto_validation: true
-primary_tag: topic>abap-development
-tags: [  tutorial>beginner, tutorial>license, topic>abap-development, topic>abap-extensibility  ]
+primary_tag: programming-tool>abap-development
+tags: [ tutorial>beginner, tutorial>license, programming-tool>abap-development, programming-tool>abap-extensibility ]
 time: 25
 author_name: Peter Persiel
 author_profile: https://github.com/peterpersiel
@@ -23,7 +23,7 @@ author_profile: https://github.com/peterpersiel
 - Your user needs Administrator access to your **SAP Business Technology Platform** (aka SAP BTP) subaccount
 - Your user needs Administrator access to your **SAP Cloud Identity Services tenant**
 
-#### Glossary
+### Glossary
 
 - *Identity*: individual people, but also computers, services, computational entities like processes and threads, or any group of such things
 - *Identity Provider*: system entity that creates, maintains, and manages identity information for identities
@@ -32,9 +32,9 @@ author_profile: https://github.com/peterpersiel
 - *SAP Cloud Identity Services tenant*: a customer's instance of the services
 - *SAP Cloud Identity Services console*: Web application to configure your tenant
 
-#### Additional Information
+### Additional Information
 
-- Tutorial last updated in September 2025
+- Tutorial last updated in April 2026
 - Documentation: [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/landing-page?version=Cloud)
 
 >Be aware that in case of an integration with SAP S/4HANA Cloud the used Identity Authentication for the SAP BTP subaccount should be the very same as the one used for the SAP S/4HANA Cloud system.
@@ -154,12 +154,12 @@ To set the SAP Cloud Identity Services tenant as trusted identity provider in th
 
 Switch back to your SAP BTP cockpit trust configuration.
 
-Choose **New SAML Trust Configuration** to add a trusted identity provider.
+Choose **Add SAML Trust** to add a trusted identity provider.
 
 <!--border-->
-![Click New SAML Trust Configuration](btp-new-trust-config-button.png)
+![Click Add SAML Trust](btp-new-trust-config-button.png)
 
-Upload the metadata XML file of your SAP Cloud Identity tenant in the **Metadata File** field, give a **Name**, as for example the tenant id. **Save** your changes.
+Upload the metadata XML file of your SAP Cloud Identity Services tenant in the **Metadata** field, give a **Name**, as for example the tenant id. Save your changes via **Add SAML Trust**.
 
 <!--border-->
 ![Upload identity tenant' s metadata as trusted identity provider and save](btp-new-trust-config.png)
