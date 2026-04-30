@@ -21,18 +21,16 @@ author_profile: https://github.com/peterpersiel
 
 - **Authorizations:** Your user needs a business role with business catalogs **Extensibility - Custom Business Objects** (ID: `SAP_CORE_BC_EXT_CBO`) and **Extensibility - Custom Catalog Extensions** (ID: `SAP_CORE_BC_EXT_CCE`) in your **SAP S/4HANA Cloud** system
 
-### Additional Info
+## Additional Info
 
 - **UI Generation** and **UI Adaptation** are so called **In-App Extensibility** features done completely inside an SAP S/4HANA Cloud system. They are functionality with limited possibilities. Alternatively a UI with all SAPUI5 options can be developed with **SAP Business Application Studio** (see tutorial group [Create an SAP Fiori App and Deploy it to SAP S/4HANA Cloud](group.abap-custom-ui-s4hana-cloud)).
 - Tutorial last checked for feasibility with SAP S/4HANA Cloud Release 2602
 
-#### Our Example
+## Our Example
 
 A several tutorials spanning example will show extensibility along custom Bonus Management applications.
 
 In the first parts a Manager wants to define business objects "Bonus Plan" for employees. A Bonus Plan is used to save employee specific rules for bonus entitlement.
-
----
 
 ### Generate UI
 
