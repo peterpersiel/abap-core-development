@@ -25,15 +25,13 @@ author_profile: https://github.com/peterpersiel
 
 - **Authorizations:** Your user needs a business role with business catalog **Extensibility – Custom Business Objects** (ID: `SAP_CORE_BC_EXT_CBO`) and **Extensibility - Custom Logic** (ID: `SAP_CORE_BC_EXT_BLE`) in your **SAP S/4HANA Cloud** system
 
-### Our Example
+## Our Example
 
 A several tutorials spanning example will show extensibility along custom Bonus Management applications.
 
 In the first parts a Manager wants to define business objects **Bonus Plan** for employees. A Bonus Plan is used to save employee specific rules for bonus entitlement.
 
 >Tutorial last checked for feasibility with SAP S/4HANA Cloud Release 2602
-
----
 
 ### Make key field Read-Only
 
