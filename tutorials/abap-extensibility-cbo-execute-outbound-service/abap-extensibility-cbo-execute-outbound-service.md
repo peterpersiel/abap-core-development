@@ -26,7 +26,7 @@ author_profile: https://github.com/peterpersiel
 - **Example Objects:** Existence of custom business object `Bonus Entitlement` as described in [Part IV: Associated Business Objects (Bonus Entitlement with - Plan & Sales Order)](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/part-iv-associated-business-objects-bonus-entitlement-with-plan-amp-sales/ba-p/13345817) → Steps 1-4 without release status functionality
 - **Knowledge:** (optional) [Tutorial: Tour the SAP Business Accelerator Hub](https://developers.sap.com/tutorials/hcp-abh-getting-started.html)
 
-### Additional Info
+## Additional Info
 
 - The example application of `Bonus Entitlement` will be enhanced by a feedback functionality. The manager's feedback will be translated automatically into English by calling the externally available service **SAP Translation Hub** of SAP.
 - Be aware that the example is done with the SAP Business Accelerator Hub Sandbox system only. This shall only give an idea on how it works and cannot be used productively.
