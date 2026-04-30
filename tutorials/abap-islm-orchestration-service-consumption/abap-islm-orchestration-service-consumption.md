@@ -303,7 +303,7 @@ The preparation of the execution flow template is an optional step in this tutor
     }
 }
 ```
-> **NOTE:** In case you use the ```JSON``` file copied from your SAP AI Core Launchpad Orchestration configuration, make sure you adapt to remove the outermost layer, hence the file should start with ```{ "modules"``` and adapt to ```"masking_providers"``` (instead of ```"providers"```).
+> **NOTE:** In case you use the `JSON` file copied from your SAP AI Core Launchpad Orchestration configuration, make sure you adapt to remove the outermost layer, hence the file should start with `{ "modules"` and adapt to `"masking_providers"` (instead of `"providers"`).
 
 7. Check the orchestration modules are configured as expected, namely the data masking, input and output filtering, and the output translation should be visible in your intelligent model. The last module requires the selection of the source and target language, which are set to English and Spanish in this tutorial
 ![Choose the output translation module details](imgs/intm_change_output_translation.png)
